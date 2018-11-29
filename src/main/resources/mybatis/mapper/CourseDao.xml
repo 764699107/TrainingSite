@@ -50,4 +50,6 @@
         from Course
         where course_name=#{name}
     </select>
+
+
 </mapper>

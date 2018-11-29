@@ -48,6 +48,6 @@ public class CourseController {
 
     @GetMapping("/page/{pageNum}")
     public List<Course> getCourses(@PathVariable int pageNum) {
-        return courseService.getCourses(pageNum, 2);
+        return courseService.getCourses(pageNum, 4);
     }
 }

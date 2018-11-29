@@ -18,4 +18,6 @@ public interface CourseDao {
 
     List<Course> getCourses(@Param("offset") int offset, @Param("pageSize") int pageSize);
 
+
+
 }

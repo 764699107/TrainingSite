@@ -47,4 +47,5 @@ public class CourseDaoTest {
     @Test
     public void getCourses() {
     }
+
 }

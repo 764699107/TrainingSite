@@ -64,10 +64,10 @@
                 <li><a href="#top1" class="smoothScroll">主页</a></li>
                 <li><a href="#about" class="smoothScroll">中心简介</a></li>
                 <li><a href="#team" class="smoothScroll">师资力量</a></li>
-                <li><a href="#top" class="smoothScroll">培训课程</a></li>
+                <li><a href="courseDis.jsp" class="smoothScroll">培训课程</a></li>
                 <li><a href="#testimonial" class="smoothScroll">学员心声</a></li>
                 <li><a href="#contact" class="smoothScroll">联系我们</a></li>
-                <li><a href="picDisplay.jsp" class="smoothScroll">培训相册</a></li>
+                <li><a href="#top" class="smoothScroll">培训相册</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -79,56 +79,14 @@
 </section>
 
 
-<!-- HOME -->
-<section id="home">
-    <div class="row">
 
-        <div class="owl-carousel owl-theme home-slider">
-            <div class="item item-first">
-                <div class="caption">
-                    <div class="container">
-                        <div class="col-md-6 col-sm-12">
-                            <h1></h1>
-                            <h3></h3>
-                            <a href="#feature" class="section-btn btn btn-default smoothScroll">发现更多</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-second">
-                <div class="caption">
-                    <div class="container">
-                        <div class="col-md-6 col-sm-12">
-                            <h1></h1>
-                            <h3></h3>
-                            <a href="#courses" class="section-btn btn btn-default smoothScroll">加入课程</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-third">
-                <div class="caption">
-                    <div class="container">
-                        <div class="col-md-6 col-sm-12">
-                            <h1></h1>
-                            <h3><a href="https://plus.google.com/+templatemo" target="_parent">浏览</a> 简介.</h3>
-                            <a href="#contact" class="section-btn btn btn-default smoothScroll">了解更多</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- FEATURE -->
 <section id="feature">
     <div class="container">
         <div class="row" id = "course">
-            <
+
 
             <%--<div class="col-md-6 col-sm-6">--%>
                 <%--<div class="feature-thumb">--%>
@@ -269,7 +227,7 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/smoothscroll.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/service/course_display2.js"></script>
+<script src="js/service/pic_display_front.js"></script>
 
 </body>
 </html>

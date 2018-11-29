@@ -25,7 +25,18 @@
      <link rel="stylesheet" href="css/templatemo-style.css">
      <script src="/js/jquery.js"></script>
      <script src="/js/service/course_display.js"></script>
+    <style>
 
+        td {
+
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            max-width: 50px;
+
+        }
+
+    </style>
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -63,6 +74,7 @@
                     <li><a href="#courses" class="smoothScroll">培训课程</a></li>
                     <li><a href="#testimonial" class="smoothScroll">学员心声</a></li>
                     <li><a href="#contact" class="smoothScroll">联系我们</a></li>
+                   <li><a href="picDisplay.jsp" class="smoothScroll">培训相册</a></li>
                </ul>
 
                <ul class="nav navbar-nav navbar-right">

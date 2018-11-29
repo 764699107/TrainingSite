@@ -6,14 +6,19 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
 <html>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
 <!-- MAIN CSS -->
-<link rel="stylesheet" href="css/templatemo-style.css">
+<link rel="stylesheet" href="/css/templatemo-style.css">
 <script src="/js/service/course_manage.js"></script>
 <script src="/js/jquery.js"></script>
 <style>
@@ -21,20 +26,9 @@
         float: right;
     }
 </style>
-<style>
-
-    td {
-
-        white-space:nowrap;
-        overflow:hidden;
-        text-overflow: ellipsis;
-        max-width: 50px;
-
-    }
-
-</style>
 <head>
     <title>课程</title>
+    <base href="<%=basePath%>">
 
 </head>
 <body>

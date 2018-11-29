@@ -21,6 +21,18 @@
         margin: 0 auto;
     }
 </style>
+<style>
+
+    td {
+
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        max-width: 50px;
+
+    }
+
+</style>
 <head>
     <title>课程</title>
 

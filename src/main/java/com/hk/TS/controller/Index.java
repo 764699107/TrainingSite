@@ -17,9 +17,9 @@ public class Index {
     }
 
 
-    @RequestMapping("/index")
+    @RequestMapping("/course/manager/manage")
     public String index() {
-        return "/WEB-INF/jsp/user.jsp";
+        return "course/manager/manage";
 
     }
 }

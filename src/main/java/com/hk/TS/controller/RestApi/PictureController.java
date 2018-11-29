@@ -39,6 +39,11 @@ public class PictureController {
         return pictureService.update(picture);
     }
 
+    @GetMapping("/page/{pageNum}")
+    public List<Picture> getPics(@PathVariable int pageNum) {
+        return pictureService.getPics(pageNum, 4);
+    }
+
 
 
 }

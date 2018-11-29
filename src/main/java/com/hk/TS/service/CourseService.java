@@ -17,4 +17,6 @@ public interface CourseService {
     List<Course> getCourses(int pageNum, int pageSize);
 
     Boolean isNameExist(String name);
+
+
 }

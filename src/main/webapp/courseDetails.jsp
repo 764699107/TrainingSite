@@ -88,7 +88,7 @@
 
 
                 <div>
-                    <img   id = "imageId" alt="" />
+                    <img  style="width: 650px;height: 600px"  id = "imageId" alt="" />
                     <h2>课程简介：</h2><p id ="text">
 
                     </p>
@@ -97,8 +97,6 @@
                 <h5 id = "author"></h5>
 
             </div>
-
-
 
         </div>
     </div>
